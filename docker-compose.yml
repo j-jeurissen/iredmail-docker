@@ -1,0 +1,7 @@
+version: '3'
+#Docker compose file to build image
+services:
+  iredmail:
+    build:
+      context: ./mysql
+    image: jjeurissen/iredmail:9.9.0

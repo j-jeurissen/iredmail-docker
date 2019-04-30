@@ -2,7 +2,7 @@ FROM phusion/baseimage:latest
 MAINTAINER Miloš Kozák <milos.kozak@lejmr.com>
 
 # Suporting software versions
-ARG IREDMAIL_VERSION=0.9.8
+ARG IREDMAIL_VERSION=0.9.9
 
 # Default values changable at startup
 ARG DOMAIN=DOMAIN
